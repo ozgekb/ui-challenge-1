@@ -1,55 +1,56 @@
 html, body {
-  height: 100%;
   text-align: center;
+  width:100%;
+  height: 100%;
 }
 p{
-  position: relative;;
+  position: relative;
   top : 50%;
 }
 div {
-    white-space: nowrap;
+      white-space: nowrap;
+      width:100%;
+      height:100%;
 }
 .a1{
     background-color: #1d0b0b;
     width: 100%;
     height: 9.76%;
-    top: 0px;
-    display: block;
+    display: inline-block;
+    float:left;
 }
 .b2{
     background-color: red;
     width: 100%;
     height: 19.53%;
-    top: 30px;
-    display: block;
+    display: inline-block;
+    float:left;
 }
 .c3{
     background-color: blue;
     width: 100%;
     height: 16.27%;
-    top: 60px;
-    display: block;
+    display: inline-block;
+    float:left;
 }
 .d4 {
    background-color: green;
    width: 100%;
    height: 16.27%;
-   top: 50px;
-   display: block;
+   display: inline-block;
+   float:left;
 }
 .e5{
     background-color: pink;
     width: 50%;
     height: 32.55%;
-    top: 60px;
     display: inline-block;
-
+    float:left;
 }
 .f6{
     background-color:  grey;
     width: 50%;
     height: 32.55%;
-    top: 60px;
     display: inline-block;
     float:left;
 }
@@ -57,14 +58,13 @@ div {
     background-color: yellow;
     width: 50%;
     height: 32.55%;
-    top: 80px;
     display: inline-block;
+    float:left;
 }
 .h8{
     background-color: purple;
     width: 50%;
     height: 32.55%;
-    top: 90px;
     display: inline-block;
     float:left;
 }
@@ -72,16 +72,10 @@ div {
     background-color: #5cf442;
     width: 100%;
     height: 10.41%;
-    top: 95px;
-    display: block;
+    display: inline-block;
+    float:left;
 }
-.k{
-    background-color:#f4cd41;
-    width: 100%;
-    height: 1;
-    top: 10px;
 
-}
 
 @media only screen and (min-width: 800px) {
   .a1 {
@@ -154,15 +148,13 @@ div {
       background-color: #5cf442;
       width: 79.16%;
       height: 26.42%;
-      top: 90px;
       display: inline-block;
+      float:right;
   }
-  .k{
-      background-color:#f4cd41;
-      width: 100%;
-      height: 100%;
-      top: 10px;
-
+  div {
+      white-space: nowrap;
+        width:100%;
+        height:100%;
   }
 
 }
